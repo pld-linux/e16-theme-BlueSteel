@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment BlueSteel Theme
+Enlightenment BlueSteel Theme.
 
 %description -l pl
-Wystrój BlueSteel dla enlightenmenta
+Wystrój BlueSteel dla enlightenmenta.
 
 %prep
 %setup -q
