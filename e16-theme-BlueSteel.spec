@@ -8,7 +8,6 @@ License:	GPL
 Group:		Themes
 Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 # Source0-md5:	15b713cb11071116cfb4bedd99853d7a
-# Source0-size:	724460
 Patch0:		%{name}-i18n.patch
 URL:		http://www.enlightenment.org/
 Requires:	enlightenment >= 0.16.7.1
