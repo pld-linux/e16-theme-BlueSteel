@@ -1,6 +1,6 @@
 %define	_tname	BlueSteel
-Summary:	Enlightenment BlueSteel Theme
-Summary(pl):	Wystrój BlueSteel dla enlightenmenta
+Summary:	Enlightenment BlueSteel theme
+Summary(pl):	Wystrój BlueSteel dla Enlightenmenta
 Name:		enlightenment-theme-%{_tname}
 Version:	0.16
 Release:	1
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Enlightenment BlueSteel Theme.
+Enlightenment BlueSteel theme.
 
 %description -l pl
-Wystrój BlueSteel dla enlightenmenta.
+Wystrój BlueSteel dla Enlightenmenta.
 
 %prep
 %setup -q
