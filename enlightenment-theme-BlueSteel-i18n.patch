@@ -1,0 +1,314 @@
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/borders/common/border.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/borders/common/border.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/borders/common/border.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/borders/common/border.cfg	2004-10-10 01:51:37.866422104 +0200
+@@ -649,17 +649,17 @@
+ 
+ __TCLASS __BGN
+   __NAME "TITLE_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+-  __NORMAL_ACTIVE "vixar/12"
++  __NORMAL_ACTIVE "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+-  __NORMAL_ACTIVE_STICKY "vixar/12"
++  __NORMAL_ACTIVE_STICKY "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+@@ -668,19 +668,19 @@
+ 
+ __TCLASS __BGN
+   __NAME "LEFTSIDE_TITLE_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+ 	__ORIENTATION __FONT_TO_UP
+-  __NORMAL_ACTIVE "vixar/12"
++  __NORMAL_ACTIVE "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+ 	__ORIENTATION __FONT_TO_UP
+-  __NORMAL_ACTIVE_STICKY "vixar/12"
++  __NORMAL_ACTIVE_STICKY "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/borders/LEFTPAGER/border.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/borders/LEFTPAGER/border.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/borders/LEFTPAGER/border.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/borders/LEFTPAGER/border.cfg	2004-10-10 01:51:37.867421952 +0200
+@@ -199,19 +199,19 @@
+ 
+ __TCLASS __BGN
+   __NAME "LEFTPAGER_TITLE_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+     __ORIENTATION __FONT_TO_DOWN
+-  __NORMAL_ACTIVE "vixar/12"
++  __NORMAL_ACTIVE "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 512
+     __ORIENTATION __FONT_TO_DOWN
+-  __NORMAL_ACTIVE_STICKY "vixar/12"
++  __NORMAL_ACTIVE_STICKY "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/coords/coords.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/coords/coords.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/coords/coords.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/coords/coords.cfg	2004-10-10 01:51:37.868421800 +0200
+@@ -7,7 +7,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "COORDS"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 255 255 255
+   __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/dialogs/dialogs.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/dialogs/dialogs.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/dialogs/dialogs.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/dialogs/dialogs.cfg	2004-10-10 01:51:37.869421648 +0200
+@@ -109,7 +109,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+@@ -118,7 +118,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG_BUTTON"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+@@ -127,7 +127,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG_WIDGET_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 192 192 192
+   __BACKGROUND_COLOR 0 0 0
+@@ -136,7 +136,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG_WIDGET_CHECK_BUTTON"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 192 192 192
+   __BACKGROUND_COLOR 0 0 0
+@@ -145,7 +145,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG_WIDGET_RADIO_BUTTON"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 192 192 192
+   __BACKGROUND_COLOR 0 0 0
+@@ -154,7 +154,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "DIALOG_WIDGET_BUTTON"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 255 255 255
+   __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/epplets/epplets.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/epplets/epplets.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/epplets/epplets.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/epplets/epplets.cfg	2004-10-10 01:51:37.869421648 +0200
+@@ -286,7 +286,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_LABEL"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+@@ -294,11 +294,11 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_BUTTON"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+-  __CLICKED "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __CLICKED "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 128 125 133
+@@ -306,7 +306,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TOGGLEBUTTON_ON"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 128 125 133
+@@ -314,7 +314,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TOGGLEBUTTON_OFF"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+@@ -322,11 +322,11 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_POPUP"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+-  __CLICKED "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __CLICKED "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 128 125 133
+@@ -334,7 +334,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_TINY"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-80-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--10-*,-*-r-*--10-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+@@ -342,7 +342,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_MEDIUM"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-100-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+@@ -350,7 +350,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "EPPLET_TEXT_LARGE"
+-  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--16-*,-*-r-*--16-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 0 0 0
+   __BACKGROUND_COLOR 182 178 190
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/focuslist/focuslist.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/focuslist/focuslist.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/focuslist/focuslist.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/focuslist/focuslist.cfg	2004-10-10 01:51:37.870421496 +0200
+@@ -11,12 +11,12 @@
+ 
+ __TCLASS __BGN
+   __NAME "WARPFOCUS"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+     __JUSTIFICATION 0
+-  __CLICKED "vixar/12"
++  __CLICKED "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/iconbox/iconbox.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/iconbox/iconbox.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/iconbox/iconbox.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/iconbox/iconbox.cfg	2004-10-10 01:51:37.870421496 +0200
+@@ -126,7 +126,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "ICONBOX_WINDOW_TITLE"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 255 255 255
+   __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/init/init.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/init/init.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/init/init.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/init/init.cfg	2004-10-10 01:52:36.169558680 +0200
+@@ -30,7 +30,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "PROGRESS_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_NONE
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+@@ -39,7 +39,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "PROGRESS_TEXT_NUMBER"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_NONE
+     __FORGROUND_COLOR 255 255 255
+     __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/menustyles/menustyles.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/menustyles/menustyles.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/menustyles/menustyles.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/menustyles/menustyles.cfg	2004-10-10 01:51:37.871421344 +0200
+@@ -25,7 +25,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "MENU_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+     __DRAWING_EFFECT __EFFECT_SHADOW
+     __FORGROUND_COLOR 192 192 192
+     __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/pager/pager.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/pager/pager.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/pager/pager.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/pager/pager.cfg	2004-10-10 01:51:37.872421192 +0200
+@@ -31,7 +31,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "PAGER_WINDOW_TITLE"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_SHADOW
+   __FORGROUND_COLOR 255 255 255
+   __BACKGROUND_COLOR 0 0 0
+diff -Nur enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/tooltips/tooltips.cfg enlightenment-theme-BlueSteel-0.16/BlueSteel/tooltips/tooltips.cfg
+--- enlightenment-theme-BlueSteel-0.16.orig/BlueSteel/tooltips/tooltips.cfg	1999-10-13 21:05:26.000000000 +0200
++++ enlightenment-theme-BlueSteel-0.16/BlueSteel/tooltips/tooltips.cfg	2004-10-10 01:51:37.872421192 +0200
+@@ -27,7 +27,7 @@
+ 
+ __TCLASS __BGN
+   __NAME "TOOLTIP_TEXT"
+-  __NORMAL "vixar/12"
++  __NORMAL "-*-lucida-medium-r-normal-*-*-120-*-*-p-*-iso8859-1,-*-fixed-medium-r-normal--14-*,-*-r-*--14-*,*"
+   __DRAWING_EFFECT __EFFECT_NONE
+   __FORGROUND_COLOR 0 0 0
+   __JUSTIFICATION 0
