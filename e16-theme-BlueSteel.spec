@@ -1,6 +1,6 @@
 %define	_tname	BlueSteel
 Summary:	Enlightenment BlueSteel theme
-Summary(pl.UTF-8):   Wystrój BlueSteel dla Enlightenmenta
+Summary(pl.UTF-8):	Wystrój BlueSteel dla Enlightenmenta
 Name:		e16-theme-%{_tname}
 Version:	0.16.8
 Release:	1
